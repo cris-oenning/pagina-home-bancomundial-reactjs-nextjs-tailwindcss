@@ -3,7 +3,7 @@ import Image from "next/image";
 import { ItemMenu } from "./ItemMenu";
 import { Search } from "./Search";
 
-import Logo from '@/assets/logo.svg'
+import Logo from '@/assets/logo2.png'
 import IconUser from '@/assets/icon-user.svg'
 import { Container } from "./Container";
 
@@ -17,6 +17,7 @@ export function Header() {
             <Image
               src={Logo}
               alt="Logo"
+              className="w-28 h-auto rounded"
             />
             <ul className="flex items-center gap-12">
               <li>
